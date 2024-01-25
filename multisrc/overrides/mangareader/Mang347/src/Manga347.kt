@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.en.comickiba
+package eu.kanade.tachiyomi.extension.en.manga347
 
 import eu.kanade.tachiyomi.multisrc.mangareader.MangaReader
 import eu.kanade.tachiyomi.network.GET
@@ -22,13 +22,13 @@ import org.jsoup.nodes.TextNode
 import org.jsoup.select.Evaluator
 import rx.Observable
 
-class Manhuagold : MangaReader() {
+class manga347 : MangaReader() {
 
-    override val name = "Manhuagold"
+    override val name = "manga347"
 
     override val lang = "en"
 
-    override val baseUrl = "https://manhuagold.com"
+    override val baseUrl = "https://manga347.com"
 
     override val client = network.cloudflareClient.newBuilder()
         .rateLimit(2)
